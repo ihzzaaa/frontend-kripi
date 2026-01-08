@@ -1,3 +1,5 @@
+const API_BASE = "https://zita-inferrible-compartmentally.ngrok-free.dev"
+
 import React from "react";
 import logo from "./assets/images/logo.png";
 import ParameterPanel from "./components/ParameterPanel";
