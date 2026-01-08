@@ -1,14 +1,5 @@
 const API_BASE = "https://zita-inferrible-compartmentally.ngrok-free.dev"
 
-fetch(`${API_BASE}/encrypt`, {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-    "ngrok-skip-browser-warning": "true" // <--- Tambahkan ini
-  },
-  body: JSON.stringify(data)
-})
-
 import React from "react";
 import logo from "./assets/images/logo.png";
 import ParameterPanel from "./components/ParameterPanel";
