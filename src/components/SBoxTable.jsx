@@ -16,7 +16,7 @@ const SBoxTable = () => {
   const handleGenerate = async () => {
     setLoading(true);
     try {
-      const res = await axios.post("http://127.0.0.1:8000/generate-analyze");
+      const res = await axios.post("https://zita-inferrible-compartmentally.ngrok-free.dev/generate-analyze");
       setData(res.data);
     } catch (e) {
       alert("Error connecting to backend!");

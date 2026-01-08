@@ -10,7 +10,7 @@ const EncryptionTool = () => {
 
   const handleAction = async () => {
     try {
-      const res = await axios.post("http://127.0.0.1:8000/process-text", {
+      const res = await axios.post("https://zita-inferrible-compartmentally.ngrok-free.dev/process-text", {
         mode,
         sboxType,
         text,

@@ -25,7 +25,7 @@ const ImageEncryptor = () => {
 
     try {
       // Memanggil endpoint backend untuk pengolahan citra dan perhitungan metrik
-      const res = await axios.post("http://127.0.0.1:8000/process-image", formData, {
+      const res = await axios.post("https://zita-inferrible-compartmentally.ngrok-free.dev/process-image", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
